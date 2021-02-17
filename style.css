@@ -1,6 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333;
+}
+
 .navbar {
     opacity: 0.8;
     border-bottom: 1px solid #fff;
+    
+}
+nav img{
+    width: 6.5rem;
+    height: 4.5rem;
+    opacity: 0.8;
+    background-color:#3C4145;
 }
 
 header {
@@ -14,8 +38,14 @@ header .hg-image {
     background-position: center;
     height: 45rem;
     width: 100%;
-    opacity: 0.4;
+    opacity: 0.3;
     z-index: -1;
+}
+.hamza img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 100%;
+    box-shadow: 0 8px 16px 0 #613c04;
 }
 
 header h1 {
@@ -31,9 +61,201 @@ header h1 {
     padding: 1.6rem 3.2rem;
     margin: .5rem 0;
     transition: all 0.5s;
+    border-radius: .4rem;
 }
 
 .btn:hover {
     background-color: #eaeaea;
     color: #333;
 }
+#section-a {
+    background-color: #aeaeae;
+    color: #333;
+    padding: 3.2rem 0;
+}
+#portfolio {
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 4.6rem;
+    color: #2c3e50;
+    font-family: 'Ballet', cursive;
+}
+.col {
+    float: left;
+    width: 33.33333%;
+    padding: 1rem;
+}
+
+.portfolio-item {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 #fff;
+}
+
+.portfolio-item img {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 #fff;
+    
+
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #77654B;
+    opacity: 0;
+    transition: opacity .5s ease;
+    border-radius: 10px;
+    
+
+}
+
+.img-overlay .icon {
+    position: absolute;
+    color: #DCB281;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.portfolio-item:hover .img-overlay {
+    opacity: 0.8;
+}
+
+.content {
+    padding: 1.5rem;
+}
+
+/* section-c*/
+
+#section-c {
+    background-color: #eaeaea;
+    color: #333;
+    padding: 5rem;
+
+}
+
+/* section-d*/
+
+#section-d .box {
+    padding: 5rem;
+    background-color: #333333;
+}
+
+#section-d .box:first-child {
+    background-color: #333333;
+
+}
+
+/* footer*/
+
+footer {
+    padding: 3rem;
+    background: #F36A0F;
+}
+
+footer a {
+    color: black;
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 9    px;
+    }
+
+}
+
+
+@media screen and (min-width:1200px) {
+    #section-b li {
+        width: 28%;
+        margin: 1%;
+        display: inline-block;
+    }
+    .box {
+        width: 50%;
+        float: left;
+    }
+
+    html {
+        font-size: 12px;
+    }
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+
+}
+.contact li {
+    padding-left: 3rem;
+}
+
+.contact li i{
+    padding-top: 1.5rem;
+    font-size: 4rem;    
+    color: white;
+    -webkit-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -ms-transition:all 1s ease;
+    transition:all 1s ease;
+}
+.contact li i:hover {
+    color:#F36A0F;
+    font-size: 5.5rem;
+  
+
+
+}
+
+
+.card-body-1 {
+    padding: .2rem 1.6rem;
+
+}
+
+.card-title-1 {
+    margin-bottom: 1.6rem;
+    font-family: 'Ballet', cursive;
+
+   
+
+}
+p{
+    font-family: 'Fascinate', cursive;
+
+}
+
+footer p{
+    font-family: 'Ballet', cursive;
+    letter-spacing: .4rem;
+
+}
+
+header h1{
+    font-family: 'Ballet', cursive;
+    letter-spacing: .4rem;
+}
+
+
+
+
